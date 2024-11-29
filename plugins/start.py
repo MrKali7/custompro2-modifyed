@@ -235,7 +235,7 @@ async def start_command(client: Client, message: Message):
                     [InlineKeyboardButton("💳 𝑮̲̅𝒆̲̅𝒕̲̅ 𝑷̲̅𝒂̲̅𝒊̲̅𝒅̲̅ 𝑺̲̅𝒖̲̅𝒃̲̅𝒔̲̅𝒄̲̅𝒓̲̅𝒊̲̅𝒑̲̅𝒕̲̅𝒊̲̅𝒐̲̅𝒏̲̅ 💳", callback_data="upi_info")]
                 ]
                 verification_message = await message.reply(
-                    f"<b>Your Ads token is expired, refresh your token and try again.\n\nToken Timeout: {get_exp_time(VERIFY_EXPIRE)}\n\nWhat is the token?\n\nThis is an ads token. If you pass 1 ad, you can use the bot for 24 Hour after passing the ad.</b>",
+                    f"<b>Your Ads token is expired, refresh your token and try again.\n\nToken Timeout: {get_exp_time(VERIFY_EXPIRE)}\n\nWhat is the token?\n\nThis is an ads token. If you pass 1 ad, you can use the bot for {get_exp_time(VERIFY_EXPIRE)} after passing the ad.</b>",
                     reply_markup=InlineKeyboardMarkup(buttons),
                     protect_content=PROTECT_CONTENT,
                     quote=True
