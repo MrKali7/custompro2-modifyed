@@ -9,7 +9,7 @@ APP_ID = int(os.environ.get("APP_ID", "24984353"))
 API_HASH = os.environ.get("API_HASH", "d188b95fd99b5a5410b8eef5fac7f132")
  
 BAN = int(os.environ.get("BAN", "0")) #Owner user id - dont chnge 
-OWNER = os.environ.get("OWNER", "Ownerrrrrrrrrrrrrrrrrr") #Owner username
+OWNER = os.environ.get("OWNER", "iAdmin77_Bot") #Owner username
 OWNER_ID = int(os.environ.get("OWNER_ID", "6147843565")) #Owner user id
 OWNER_USERNAME = os.environ.get('OWNER_USERNAME', 'Admin')
 SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "x") # WITHOUR @
@@ -38,8 +38,8 @@ PAYMENT_TEXT = os.getenv('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀ�
                                       '‼️ ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ</b>')
 
 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ultroidxTeam:ultroidxTeam@cluster0.gabxs6m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluser10")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://diroda8150:Qt3X48eteIUNRD4Z@cluster0.feuel.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002427274779")) #database save channel id 
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002091491280"))
