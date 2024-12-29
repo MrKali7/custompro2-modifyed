@@ -25,7 +25,7 @@ NOTIFICATION = os.environ.get("NOTIFICATION" ,"⚠️File will delete after 20mi
 GET_INFORM = os.environ.get("GET_INFORM" ,"File was deleted after {DELETE_AFTER} seconds. Use the button below to GET FILE AGAIN.")
 
 #Premium varibles
-PAYMENT_QR = os.getenv('PAYMENT_QR', 'https://ibb.co/rb6vnwZ')
+PAYMENT_QR = os.getenv('PAYMENT_QR', 'https://ibb.co/9GsXYVg')
 PAYMENT_TEXT = os.getenv('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs - \n\n'
                                       '- 20ʀs - 1 ᴡᴇᴇᴋ\n- 50ʀs - 1 ᴍᴏɴᴛʜ\n'
                                       '- 100ʀs - 3 ᴍᴏɴᴛʜs\n- 300ʀs - 6 ᴍᴏɴᴛʜs\n\n'
